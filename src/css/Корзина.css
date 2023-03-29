@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+.container {
+  margin: 0 auto;
+  width: 1440px;
+}
+.headerFoto {
+  margin-bottom: 70px;
+}
+div.bar a:hover {
+  color: rgb(249, 207, 40);
+  zoom: 120%;
+}
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.logo {
+  margin-top: 30px;
+}
+.search {
+  border: 0;
+  margin-top: 50px;
+}
+.search__input {
+  background-image: url(/src/icons/Lupa.png);
+  background-repeat: no-repeat;
+  background-position: 6px 6px;
+  background-size: 15px;
+  width: 230px;
+  height: 26px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  background-color: #000000;
+  color: white;
+  padding-left: 30px;
+}
+.search > input::placeholder {
+  color: white;
+}
+.search button {
+  border: 0;
+  width: 30px;
+  height: 28px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+input[type="text"] {
+  height: 25px;
+}
+.header_cart_like {
+  width: 80px;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 40px;
+}
+.header__button__like,
+.header__button__cart {
+  width: 25px;
+  height: 22px;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  background: transparent;
+}
+.bar {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 20px;
+}
+.title_shop_cart {
+  display: flex;
+  justify-content: center;
+}
+.title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+.order {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 1098px;
+  height: 165px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.order_name_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+}
+.order_name_about {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #b5b5b5;
+}
+.order_count {
+  display: flex;
+  flex-direction: row;
+}
+.order_count_size {
+  background: url(/src/img/other/Rectangle\ 89\ small.png) no-repeat;
+  width: 63.5px;
+  height: 30px;
+  margin-left: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.order_cout_size_pickUp {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #000000;
+}
+.order_cout_color {
+  background: url(/src/img/other/Rectangle\ 300.png) no-repeat;
+  width: 108px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.order_cout_color_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+}
+.order_cout_number {
+  background: url(/src/img/other/Rectangle\ 200.png) no-repeat;
+  width: 94px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-left: 50px;
+}
+.order_cout_price_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+  color: #ffc700;
+  margin-left: 56px;
+}
+.order_delete_button {
+  cursor: pointer;
+  background: url(/src/img/other/icons8-удалить-навсегда-100.png) top left /
+    40px 40px no-repeat;
+  width: 40px;
+  height: 40px;
+  margin-left: 35px;
+}
+.wraper_form {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+   margin-bottom: 135px;
+}
+.to_order_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 70px;
+}
+.to_order_form > input {
+  height: 50px;
+}
+.to_order_form {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 441px;
+  height: 368px;
+}
+.to_order_form__client-unformation {
+  width: 441px;
+  height: 50px;
+  color: #ffc700;
+  background: #111111;
+  outline: none;
+  border: none;
+  padding: 25px;
+}
+.to_order_form__client-unformation::placeholder {
+  color: #ffc700;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+}
+.delivery_check > h5,
+.paymint_check > h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+}
+.paymint-delivery-information {
+  width: 417px;
+  height: 357;
+}
+.paymint-delivery-information__wraper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Montserrat";
+  font-style: normal;
+  color: #ffc700;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 40px;
+  margin-bottom: 65px;
+}
+.order-amount__price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffc700;
+}
+.order-amount > h5,
+.order-amount > h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #9b9b9b;
+}
+.order-amount {
+  margin-bottom: 30px;
+}
+.order-amount__total {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 39px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+.order-amount__total__price {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #ffc700;
+}
+.order-amount__button {
+  cursor: pointer;
+  width: 220px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffc700;
+}
+.order-amount__button__title {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+  color: #ffc700;
+}
+.footBackground {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url(/src/img/footer/Rectangle\ footer.png);
+  width: 100%;
+  height: 260px;
+}
+.logo {
+  margin-bottom: 20px;
+}
+.btnn {
+  cursor: pointer;
+  background: url("/src/icons/Vector\ Telegram.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  background-color: #ffc700;
+}
+.btn2 {
+  cursor: pointer;
+  background: url("/src/icons/viber\ 1.png") no-repeat center;
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  margin-left: 20px;
+  background-color: #ffc700;
+}
+.information,
+.contacts {
+  color: #f0f0f0;
+}
+.information > a {
+  color: #b7b7b7;
+}
+.contacts {
+  color: #f0f0f0;
+}
+.followUs {
+  line-height: 20px;
+  color: #f0f0f0;
+}
+.followUs p {
+  padding-top: 10px;
+  margin-bottom: 15px;
+  color: #b7b7b7;
+}
+.followUs input {
+  color: #000000;
+  width: 260px;
+  opacity: 75%;
+}
+.followUs button {
+  cursor: pointer;
+  background-color: #ffc700;
+  color: black;
+  width: 150px;
+  height: 35px;
+  border-radius: 5px;
+}
+.information__menu__item,
+.contacts__menu__item {
+  list-style-type: none;
+  line-height: 1.5;
+}
+.information__menu__item li:hover,
+.contacts__menu__item li:hover {
+  color: #ffc700;
+  zoom: 120%;
+}
